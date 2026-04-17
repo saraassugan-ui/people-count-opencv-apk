@@ -1,0 +1,20 @@
+people-count-opencv-apk/
+├── app/
+│   ├── build.gradle
+│   ├── proguard-rules.pro
+│   └── src/main/
+│       ├── AndroidManifest.xml
+│       ├── java/com/example/peoplecount/
+│       │   ├── MainActivity.kt
+│       │   └── PeopleDetector.kt
+│       └── assets/
+│           ├── MobileNetSSD_deploy.prototxt
+│           └── MobileNetSSD_deploy.caffemodel
+├── .github/
+│   └── workflows/
+│       └── build-apk.yml
+├── build.gradle
+├── settings.gradle
+├── gradlew
+├── gradlew.bat
+└── gradle/
